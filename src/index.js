@@ -15,4 +15,4 @@ if (typeof window !== "undefined") {
   window.PlebPay = PlebPay;
 }
 
-exports.default = PlebPay;
+export default PlebPay;
