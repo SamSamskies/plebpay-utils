@@ -7,13 +7,13 @@ Utility package for PlebPay.
 
 Script Tag
 ```js
-    <script src="https://unpkg.com/plebpay-utils@1.0.8/dist/index.js" type="text/javascript"></script>
-    <script>
-        // replace with your own PlebPay paywall URL
-        const plebPlayPaywallUrl = 'https://www.plebpay.com/c5bc98ff-a386-45ba-9b99-c3b16da9cdaf'
+<script src="https://unpkg.com/plebpay-utils@1.0.9/dist/index.js" type="text/javascript"></script>
+<script>
+  // replace with your own PlebPay paywall URL
+  const plebPlayPaywallUrl = 'https://www.plebpay.com/c5bc98ff-a386-45ba-9b99-c3b16da9cdaf'
       
-        window.PlebPay.redirectIfNecessary(plebPlayPaywallUrl)
-    </script>
+  window.PlebPay.redirectIfNecessary(plebPlayPaywallUrl)
+</script>
 ```
 
 Module
