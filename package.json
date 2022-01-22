@@ -1,14 +1,13 @@
 {
   "name": "plebpay-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility package for PlebPay.",
   "source": "src/index.js",
   "main": "dist/index.js",
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
-    "prepare": "npm run build",
-    "postversion": "git push && git push --tags"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
