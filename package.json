@@ -1,0 +1,33 @@
+{
+  "name": "plebpay-utils",
+  "version": "1.0.0",
+  "description": "Utility package for PlebPay.",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "prepare": "npm run build",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamSamskies/plebpay-utils.git"
+  },
+  "keywords": [
+    "PlebPay",
+    "Strike",
+    "Bitcoin",
+    "Lightning"
+  ],
+  "author": "Sam Samskies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamSamskies/plebpay-utils/issues"
+  },
+  "homepage": "https://github.com/SamSamskies/plebpay-utils#readme",
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "prettier": "2.5.1"
+  }
+}
