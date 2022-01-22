@@ -9,10 +9,6 @@ const redirectIfNecessary = (plebPayUrl) => {
   }
 };
 
-const PlebPay = { redirectIfNecessary };
-
-if (typeof window !== "undefined") {
-  window.PlebPay = PlebPay;
-}
+var PlebPay = { redirectIfNecessary };
 
 export default PlebPay;
