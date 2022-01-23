@@ -1,5 +1,5 @@
 # plebpay-utils
-Utility package for PlebPay.
+Utility package to help protect your site with a PlebPay paywall. Example usage https://github.com/SamSamskies/protected-by-plebpay-example.
 
 [![NPM](https://img.shields.io/npm/v/plebpay-utils.svg)](https://www.npmjs.com/package/plebpay-utils)
 
