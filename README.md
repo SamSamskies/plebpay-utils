@@ -22,12 +22,12 @@ $ yarn add plebpay-utils
 
 Script Tag (no installation required)
 ```js
-<script src="https://unpkg.com/plebpay-utils@1.0.13/dist/index.js" type="text/javascript"></script>
+<script src="https://unpkg.com/plebpay-utils@1.0.14/dist/index.js" type="text/javascript"></script>
 <script>
   // replace with your own PlebPay paywall URL
-  const plebPlayPaywallUrl = 'https://www.plebpay.com/c5bc98ff-a386-45ba-9b99-c3b16da9cdaf'
+  const plebPayPaywallUrl = 'https://www.plebpay.com/c5bc98ff-a386-45ba-9b99-c3b16da9cdaf'
       
-  window.PlebPay.redirectIfNecessary(plebPlayPaywallUrl)
+  window.PlebPay.redirectIfNecessary(plebPayPaywallUrl)
 </script>
 ```
 
@@ -36,7 +36,7 @@ Module
 import { redirectIfNecessary } from 'plebpay-utils'
 
 // replace with your own PlebPay paywall URL
-const plebPlayPaywallUrl = 'https://www.plebpay.com/c5bc98ff-a386-45ba-9b99-c3b16da9cdaf'
+const plebPayPaywallUrl = 'https://www.plebpay.com/c5bc98ff-a386-45ba-9b99-c3b16da9cdaf'
 
-redirectIfNecessary(plebPlayPaywallUrl)
+redirectIfNecessary(plebPayPaywallUrl)
 ```
