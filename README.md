@@ -1,9 +1,13 @@
-# plebpay-utils
+# plebpay-utils (beta)
 [![NPM](https://img.shields.io/npm/v/plebpay-utils.svg)](https://www.npmjs.com/package/plebpay-utils)
 
 Utility package to help protect your site with a PlebPay paywall. Example usage https://github.com/SamSamskies/protected-by-plebpay-example.
 
 If you've never heard of PlebPay, go check it out https://www.plebpay.com/ 😀
+
+******* ATTENTION *******\
+There is currently a known issue where you get stuck in an infinite redirect loop after paying the paywall when site that used this script was visited on iOS Safari. Only 1 user has reported the issue though.\
+******* ATTENTION *******
 
 ## Installation
 npm
@@ -22,7 +26,7 @@ $ yarn add plebpay-utils
 
 Script Tag (no installation required)
 ```js
-<script src="https://unpkg.com/plebpay-utils@1.0.15/dist/index.js" type="text/javascript"></script>
+<script src="https://unpkg.com/plebpay-utils@1.0.16/dist/index.js" type="text/javascript"></script>
 <script>
   // replace with your own PlebPay paywall URL
   const plebPayPaywallUrl = 'https://www.plebpay.com/c5bc98ff-a386-45ba-9b99-c3b16da9cdaf'
