@@ -1,11 +1,6 @@
 const redirectIfNecessary = (plebPayUrl) => {
-  if (
-    document.referrer !== "https://www.plebpay.com/" &&
-    localStorage.getItem(plebPayUrl) === null
-  ) {
+  if (document.referrer !== "https://www.plebpay.com/") {
     window.location = plebPayUrl;
-  } else {
-    localStorage.setItem(plebPayUrl, true);
   }
 };
 
