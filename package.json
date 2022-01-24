@@ -1,6 +1,6 @@
 {
   "name": "plebpay-utils",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Utility package for PlebPay.",
   "source": "src/index.js",
   "main": "dist/index.js",
