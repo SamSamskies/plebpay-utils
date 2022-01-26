@@ -1,9 +1,15 @@
 {
   "name": "plebpay-utils",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Utility package for PlebPay.",
   "source": "src/index.js",
   "main": "dist/index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": {
+      "includeNodeModules": true
+    }
+  },
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
@@ -28,5 +34,8 @@
   "devDependencies": {
     "parcel": "^2.2.1",
     "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "shorthash2": "^1.0.3"
   }
 }
